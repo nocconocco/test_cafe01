@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>猫カフェ_NEWS</title>
+    <meta
+      name="description"
+      content="譲渡型猫カフェ"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+ <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Satisfy&display=swap" rel="stylesheet">
+    
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Philosopher"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+      <div id="news" class="big-bg">
+          <header class="page-header wrapper">
+            <h1>
+              <a href="index.html"
+                ><img class="logo" src="images/logo_cat.png" alt="保護猫カフェ"
+              /></a>
+            </h1>
+            <nav>
+              <ul class="main-nav">
+                <li><a href="news.html">News</a></li>
+                <li><a href="menu.html">Staff</a></li>
+                <li><a href="contact.html">About Us</a></li>
+              </ul>
+            </nav>
+          </header>
+
+        <!-- /.wrapper -->
+        <div class="wrapper">
+          <h1 class="page-title">News</h1>
+        </div>
+      </div>
+
+      <!-- /.news-contents -->
+        <div class="news-contents wrapper">
+        <article>
+          <header class="post-info">
+            <h2 class="post-title">カフェスペースが新しくなりました</h2>
+            <p class="post-date">9/30 <span>2023</span></p>
+            <p class="post-cat">＜お店の紹介＞</p>
+          </header>
+          
+          
+          <!-- slider====================== -->
+
+          <div class="carousel">
+            <!-- スライドのリスト -->
+            <div class="contains">
+              <!-- スライドを選択するためのラジオボタンリスト。 -->
+              <!-- 1番目を選択状態(checked)にします。-->
+              <!-- Slide各ラジオボタンに個別のidを定義、nameはすべて同じ値に -->
+              <input class="slide_select" type="radio" id="SlideA" name="slide_check" checked />
+              <input class="slide_select" type="radio" id="SlideB" name="slide_check" />
+              <input class="slide_select" type="radio" id="SlideC" name="slide_check" />
+              <!-- スライド -->
+              <!-- 上のラジオボックスと同じ数だけ記述します。-->
+              <div class="slide">
+                <!-- スライドの前へ、次へとスクロールさせるボタン -->
+                <div class="scroll_controler">
+                  <!-- 前へボタン forで戻る先のラジオボタンのidを書きます。-->
+                  <!-- 先頭要素なので、最後のスライドのidである"SlideD"を書いています。 -->
+                  <label class="scroll_button scroll_prev" for="SlideC"></label>
+                  <!-- 次へボタン 上と同様にforで進む先のラジオボタンのidを書きます。-->
+                  <!-- 進み先は2番目の要素なので、2番目のスライドのid"SlideB"を書いています。 -->
+                  <label class="scroll_button scroll_next" for="SlideB"></label>
+                </div>
+                <!-- スライドの内容（ここでは画像）を記述します。 -->
+                <!-- div要素に変えれば文字を加えることもできます。 -->
+                <img src="images/slide_image01.jpg">
+              </div>
+              <!-- スライド（2番目）内容は1個めと同じ -->
+              <div class="slide">
+                <div class="controler_scroll">
+                  <label class="scroll_button scroll_prev" for="SlideA"></label>
+                  <label class="scroll_button scroll_next" for="SlideC"></label>
+                </div>
+                <img src="images/slide_image02.jpg">
+              </div>
+              <!-- スライド（3番目）内容は1個めと同じ -->
+              <div class="slide">
+                <div class="controler_scroll">
+                  <label class="scroll_button scroll_prev" for="SlideB"></label>
+                  <label class="scroll_button scroll_next" for="SlideD"></label>
+                </div>
+                <img src="images/slide_image03.jpg">
+              </div>
+              <!-- スライド移動用ボタン -->
+              <div class="move_controler">
+                <!-- 1個目のスライドのボタン -->
+                <!-- 一番上のラジオボタンの1個目のスライドのid”A”をforに定義します-->
+                <label class="button_move" for="SlideA"></label>
+                <label class="button_move" for="SlideB"></label>
+                <label class="button_move" for="SlideC"></label>
+              </div>
+            </div>
+          </div>
+           <!-- sliderここまで============= -->
+          
+          <p>
+            保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。
+          </p>
+          <p>
+            保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。保護猫たちと遊んでくつろいでいただけるスペースをリニューアルしました。
+          </p>
+          <p>体に優しい自然食を提供する、保護猫カフェ。</p>
+        </article>
+
+        <aside>
+          <h3 class="sub-title">カテゴリー</h3>
+          <ul class="sub-menu">
+            <li><a href="#">お店の紹介</a></li>
+            <li><a href="#">期間限定メニュー</a></li>
+            <li><a href="#">イベント</a></li>
+            <li><a href="#">お客様との会話</a></li>
+          </ul>
+
+          <h3 class="sub-title">カフェについて</h3>
+          <p>
+            ずっとの家族を探している猫と出会える「保護猫カフェ」です。<br>可愛い猫たちに囲まれて癒しの時間を過ごしましょう。
+          </p>
+
+          <p class="nikoniko">
+            <img src="images/news_ryu00.jpg" alt="猫ニコニコ写真" />
+          </p>
+        </aside>
+
+        <!-- <div class="ad">
+          <img src="images/news_3.png" alt="新メニュー登場">
+        </div> -->
+      </div>
+
+      <footer>
+        <div class="wrapper">
+          <p><small>&copy; 2019 Manabox</small></p>
+        </div>
+      </footer>
+    </body>
+</html>
