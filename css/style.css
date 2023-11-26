@@ -118,7 +118,7 @@ iframe {
 }
 
 .top-title {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Kiwi Maru', serif;
   text-align: center;
   font-weight: normal;
@@ -402,21 +402,23 @@ aside {
 ------------------------------- */
 #menu {
   background-image: url(../images/mei_0809.jpg);
-  height: 500px;
-  /* min-height: 100vh; */
+  /* height: 500px; */
+  min-height: 60vh;
 }
 
 .grid {
   display: grid;
   gap: 26px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin-top: 6%;
-  margin-bottom: 50px;
+  margin-top: 3%;
+  margin-bottom: 40px;
 }
 
 .item {
   font-weight: bold;
 }
+
+
 
 /* CONTACT
 ------------------------------- */
@@ -426,7 +428,7 @@ aside {
 }
 
 .sub-title-info {
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: bisque;
   color: rgb(145, 19, 19);
   padding: 10px;
@@ -599,6 +601,14 @@ footer p {
     align-items: center;
   }
 
+  .top-title {
+    font-size: 2.5rem;
+  }
+
+  #welcome {
+    font-size: 2rem;
+  }
+
   /* HEADER */
   .main-nav {
     font-size: 1rem;
@@ -651,12 +661,16 @@ footer p {
     margin-left: 80px;
   }
 
-  /* MENU */
+  /* .nikoniko {
+    max-height: 30vw;
+  } */
+  
+  /* MENU (Staff) */
   .menu-content {
     margin-top: 20%;
   }
 
-  /* CONTACT */
+  /* CONTACT (about US)*/
   #contact .page-title {
     margin-top: 40px;
   }
@@ -682,4 +696,3 @@ footer p {
     margin-bottom: 30px;
   }
 }
-
